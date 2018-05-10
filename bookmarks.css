@@ -1,0 +1,55 @@
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  background-color: DDDDDD; 
+  margin: 0;
+  
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 0 0 3px #666666;
+}
+
+
+h3 {
+  font-size: 1em;
+  margin: 0.67em 0;
+  text-indent: 20px;
+  text-shadow: 1px 1px #DDDDDD;
+}
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+a {
+  background-color: transparent;
+
+}
+
+a:link,a:visited{
+  display: block;
+  color: #555555;
+  padding: 4px;
+  text-decoration: none;
+  text-indent: 50px;
+}
+
+a:hover,a:active{
+  color: #111111;
+  background-color: #EEEEEE;
+}
